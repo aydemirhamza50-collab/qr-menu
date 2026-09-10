@@ -96,10 +96,10 @@ const MenuItemCard: React.FC<MenuItemCardProps> = ({
           >
             1 pc • {quantity} g
           </p>
-          <span className="text-xl font-bold">₹{price}</span>
+          <span className="text-xl font-bold">TL{price}</span>
           {originalPrice && (
             <span className="text-sm line-through text-gray-500">
-              ₹{originalPrice}
+              TL{originalPrice}
             </span>
           )}
         </div>
